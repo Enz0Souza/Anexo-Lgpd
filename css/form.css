@@ -1,0 +1,180 @@
+.fordform {
+    display: block;
+    width: 300px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    height: 26px;
+    margin: 8px;
+    font-size: 13px;
+    padding: 5px;
+}
+
+select.fordform {
+    width: 310px;
+    height: 36px;
+    color: #807d7d;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+select:focus-visible {
+    outline: none;
+}
+
+main div {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.forms {
+    display: block;
+    text-align: center;
+}
+
+.forms {
+    animation-duration: 1.5s;
+    animation-name: slide;
+    animation-direction: normal;
+}
+
+#termos {
+    font-size: small;
+    color: gray;
+    max-width: 400px;
+    text-align: justify;
+    margin-top: -25px;
+    display: block;
+}
+
+
+@keyframes slide {
+    from {
+        margin-left: 50%;
+        width: 120%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+
+h2 {
+    text-align: left;
+    font-weight: 800;
+}
+
+
+button {
+    width: 200px;
+    height: 40px;
+    margin-right: 8px;
+    float: right;
+    cursor: pointer;
+    background-color: gray;
+    transition: none;
+}
+
+button.ativo {
+    transition: background-color 0.3s ease;
+}
+
+
+button.ativo:hover {
+    animation-name: Anima;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#textotermos{
+    width: 96%;
+    
+}
+
+@keyframes Anima {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.10);
+    }
+}
+
+
+.titulo {
+    margin-left: 8px;
+
+}
+
+#imagemcarro {
+    margin-left: 3%;
+    margin-top: 13%;
+}
+
+#Imagemcarrotabela {
+    margin-left: 3%;
+    margin-top: 16%;
+    display: none;
+}
+
+#formbody {
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: #f9f9f9;
+}
+
+
+@media screen and (max-width: 673px) {
+
+    footer {
+        border-top: 1px solid #333;
+        bottom: 0;
+        left: 0;
+        height: 40px;
+        position: fixed;
+        width: 100%;
+    }
+
+    #imagemcarrinho {
+        max-width: 200px;
+        max-height: 150px;
+        width: auto;
+        height: auto;
+    }
+
+    main div {
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-height: 550px) {
+
+    main div {
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+
+}
+
+.偽物 {
+    align-items: center;
+    width: 1px;
+    height: 1px;
+
+}
