@@ -55,14 +55,14 @@
                 <h2 class="titulo">Sobre Você</h2>
                 <form onsubmit="Post(this);">
                     <input type="text" name="nome" placeholder="NOME*" class="fordform" required>
-                    <input type="text" name="email" placeholder="E-MAIL*" class="fordform" required>
+                    <input type="text" name="email" placeholder="E-MAIL* Ex:camilaempresa1@gmail.com" class="fordform" required>
                     <input type="cpf" name="cpf" placeholder="CPF*" class="fordform" minlength="14" maxlength="14"
                         required oninput="formatarCPF(this)">
                     <input type="text" name="sobrenome" placeholder="SOBRENOME*" class="fordform" required>
-                    <input type="tel" name="telefone" placeholder="TELEFONE* Ex (00)-0000-0000" class="fordform"
-                        minlength="13" maxlength="13" required oninput="formatarTelefone(this)">
+                    <input type="tel" name="telefone" placeholder="TELEFONE* Ex (00) 0000-0000" class="fordform"
+                        minlength="14" maxlength="14" required oninput="formatarTelefone(this)">
                     <select name="contato" class="fordform" required>
-                        <option selected disabled>Tipo de Contato</option>
+                        <option selected disabled>Tipo de Contato*</option>
                         <option>Elogio</option>
                         <option>Reclamação</option>
                         <option>Solicitação</option>
